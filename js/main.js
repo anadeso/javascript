@@ -1,3 +1,29 @@
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b> Obrigada por clicar</br";
+    //alert("Obrigada por clicar");
+}
+
+function redirecionamento(){
+    //window.open("https://www.flaticon.com/search?word=java");
+    window.location.href= "https://www.flaticon.com/search?word=java";
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "Obrigada por passar o mouse";
+    //document.getElementById("mousemove").innerHTML= "Obrigada por passar o mouse aqui";
+    //alert("trocar texto");
+}
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("Pagina carregada");
+}
+
+function funcaoChange(elemento){
+        console.log(elemento.value);
+}
 //funcao
 /*function soma(n1, n2){
     return n1 + n2;
@@ -5,7 +31,8 @@
 alert(soma(2, 2));*/
 
 // variavel global
-var validar = 0;
+
+/*var validar = 0;
 
 function validaIdade(idade){
     // variavel local
@@ -22,7 +49,7 @@ var idade = prompt("Qual sua idade");
 validaIdade(idade);
 
 console.log(validar);
-
+*/ 
 //var d = new Date();
 //alert(d);
 //alert(d.getMonth());
